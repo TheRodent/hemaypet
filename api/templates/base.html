@@ -37,6 +37,7 @@
 
     <nav class="main-nav">
       <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#">Home</a></li>
         <li><a class="main-nav-link" href="{{ url_for('about') }}">About Us</a></li>
         <li><a class="main-nav-link" href="{{ url_for('product') }}">Our Product</a></li>
         <li><a class="main-nav-link" href="{{ url_for('book') }}">Book</a></li>
@@ -100,9 +101,9 @@
         <p class="footer-heading">Information</p>
         <ul class="footer-nav">
           <li><a class="footer-link" href="#">Home</a></li>
-          <li><a class="footer-link" href="About.html">About Us</a></li>
-          <li><a class="footer-link" href="Products.html">Products</a></li>
-          <li><a class="footer-link" href="Book.html">Book</a></li>
+          <li><a class="footer-link" href="{{ url_for('about') }}">About Us</a></li>
+          <li><a class="footer-link" href="{{ url_for('product') }}">Products</a></li>
+          <li><a class="footer-link" href="{{ url_for('book') }}">Book</a></li>
         </ul>
       </nav>
 
