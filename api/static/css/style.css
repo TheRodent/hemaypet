@@ -633,6 +633,7 @@ body {
   height: 50vh;
   width: 80vh;
   border-radius: 8%;
+  background-color: #cf711f;
 }
 
 .form input {
@@ -640,4 +641,5 @@ body {
   background-color: black;
   border-width: 0.1rem;
   border-color: darkgoldenrod;
+  border-radius: 0.1rem;
 }
