@@ -627,6 +627,8 @@ body {
   justify-content: center;
   align-items: center;
   color: darkgoldenrod;
+  margin-left: 10%;
+  margin-right: 10%;
 
   height: 50vh;
   width: 80vh;
