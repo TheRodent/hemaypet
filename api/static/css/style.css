@@ -620,3 +620,16 @@ body {
   width: 10rem;
   height: 10rem;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgoldenrod;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
