@@ -637,11 +637,15 @@ body {
 }
 
 .form input {
+  color: darkgoldenrod;
+  font-size: 3rem;
+  font-weight: 300;
+
   display: block;
   background-color: black;
-  border-width: 1rem;
+  border-width: 0.4rem;
   border-color: darkgoldenrod;
   border-radius: 1rem;
-  height: 2rem;
-  width: 10vw;
+  height: 3rem;
+  width: 15vw;
 }
