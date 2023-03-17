@@ -639,6 +639,7 @@ body {
   color: darkgoldenrod;
   font-size: 3rem;
   font-weight: 300;
+  padding: 0.5rem;
 
   display: block;
   background-color: black;
@@ -652,6 +653,9 @@ body {
   height: 4rem;
   width: 25vw;
   border: 0.4rem solid darkgoldenrod;
+  border-radius: 1rem;
   color: darkgoldenrod;
   background-color: black;
+
+  padding: 0.5rem;
 }
