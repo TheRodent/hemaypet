@@ -74,7 +74,7 @@ body {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -125,7 +125,7 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: black;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
