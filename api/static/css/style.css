@@ -632,8 +632,8 @@ body {
 
   height: 50vh;
   width: 80vw;
-  border-radius: 5%;
-  background-color: #cf711f;
+  border-radius: 20%;
+  background-color: #000000;
 }
 
 .form input {
@@ -643,9 +643,16 @@ body {
 
   display: block;
   background-color: black;
-  border-width: 0.4rem;
-  border-color: darkgoldenrod;
+  border: 0.4rem solid darkgoldenrod;
   border-radius: 1rem;
-  height: 3rem;
-  width: 15vw;
+  height: 4rem;
+  width: 25vw;
+}
+
+.submit-btn {
+  height: 4rem;
+  width: 25vw;
+  border: 0.4rem solid darkgoldenrod;
+  color: darkgoldenrod;
+  background-color: black;
 }
