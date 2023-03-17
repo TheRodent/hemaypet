@@ -1,8 +1,4 @@
-/**************************/
-/* HEADER */
-/**************************/
-
-/******* GOOGLE TRANSLATE ******/
+/********
 #google_translate_element select {
   background: #fff;
   color: #343a44;
@@ -49,7 +45,6 @@ body {
   align-items: center;
   background-color: black;
 
-  /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -58,10 +53,6 @@ body {
 .logo {
   height: 7rem;
 }
-
-/**************************/
-/* NAVIGATION */
-/**************************/
 
 .main-nav-list {
   list-style: none;
@@ -98,7 +89,6 @@ body {
   background-color: darkgoldenrod;
 }
 
-/* MOBILE */
 .btn-mobile-nav {
   border: none;
   background: none;
@@ -116,7 +106,6 @@ body {
   display: none;
 }
 
-/* STICKY NAVIGATION */
 .sticky .header {
   position: fixed;
   top: 0;
@@ -133,10 +122,6 @@ body {
 .sticky .section-hero {
   margin-top: 9.6rem;
 }
-
-/**************************/
-/* HERO SECTION */
-/**************************/
 
 .section-hero {
   background-color: #fff;
@@ -164,10 +149,6 @@ body {
   border-radius: 0.8rem;
 }
 
-/**************************/
-/* FEATURED IN SECTION */
-/**************************/
-
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
@@ -189,13 +170,8 @@ body {
 
 .logos img {
   height: 3.2rem;
-  /* filter: brightness(); */
   opacity: 50%;
 }
-
-/**************************/
-/* HOW IT WORKS SECTION */
-/**************************/
 
 .section-how {
   padding: 9.6rem 0;
@@ -247,10 +223,6 @@ body {
 .no-padding {
   padding: 0;
 }
-
-/**************************/
-/* MEALS SECTION */
-/**************************/
 
 .section-meals {
   padding: 9.6rem 0;
@@ -322,7 +294,6 @@ body {
 
   display: flex;
   align-items: center;
-  /* gap: 2.4rem; */
 }
 
 .carousel-text {
@@ -369,10 +340,6 @@ body {
   top: 45%;
   right: 2%;
 }
-
-/**************************/
-/* TESTIMONIALS SECTION */
-/**************************/
 
 .section-testimonials {
   background-color: #f0f7f5;
@@ -429,10 +396,6 @@ body {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
-
-/**************************/
-/* MEALS SECTION */
-/**************************/
 
 .section-pricing {
   padding: 9.6rem 0;
@@ -537,11 +500,6 @@ body {
   font-size: 1.8rem;
   line-height: 1.8;
 }
-
-
-/**************************/
-/* FOOTER */
-/**************************/
 
 .footer {
   padding: 12.8rem 0;
