@@ -626,10 +626,15 @@ body {
   justify-content: center;
   align-items: center;
   color: darkgoldenrod;
+
+  height: 50vh;
+  width: 80vh;
+  border-radius: 8%;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.form input {
+  display: block;
+  background-color: black;
+  border-width: 0.1rem;
+  border-color: darkgoldenrod;
 }
