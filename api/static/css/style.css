@@ -1,48 +1,8 @@
-#google_translate_element select {
-  background: #fff;
-  color: #343a44;
-  border: none;
-  border-radius: 8px;
-  padding: 0 8px;
-  margin-bottom: -0.5rem;
-}
-
-.goog-te-banner-frame.skiptranslate,
-.goog-te-gadget-icon {
-  display: none !important;
-}
-
-body {
-  top: 0px !important;
-}
-
-.goog-tooltip {
-  display: none !important;
-}
-
-.goog-tooltip:hover {
-  display: none !important;
-}
-
-.goog-text-highlight {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.goog-logo-link {
-  display: none !important;
-}
-
-.goog-te-gadget {
-  color: transparent !important;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #6f6f6f;
 
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -64,7 +24,7 @@ body {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #333;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -72,7 +32,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: darkgoldenrod;
+  color: #343a40;
 }
 
 .main-nav-link.nav-cta:link,
@@ -80,12 +40,12 @@ body {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: darkgoldenrod;
+  background-color: #333;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: darkgoldenrod;
+  background-color: #343a40;
 }
 
 .btn-mobile-nav {
@@ -113,7 +73,7 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: black;
+  background-color: #333;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
