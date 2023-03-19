@@ -303,8 +303,8 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(#e192ae, #da7c9d),
-    url("https://i.ibb.co/1mmtx9t/0107-3.jpg");
+  background-image: linear-gradient(#e192ae, #da7c9d);
+  background-image: url("https://i.ibb.co/1mmtx9t/0107-3.jpg");
   background-size: cover;
   background-position: center;
 }
