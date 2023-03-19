@@ -2,20 +2,82 @@
 
 {% block content %}
 
-  <h1>Registration Form</h1>
+<h1>Registration Form</h1>
 
-  <form class="form">
+<form class="form">
 
-    <input placeholder="Name" autocomplete="off" required />
-    <input type="email" placeholder="Email" autocomplete="off" required />
-    <input type="tel" placeholder="Contact No." autocomplete="off" required />
-    <input type="text" placeholder="Pet Name" autocomplete="off" required />
-    <input type="text" placeholder="Breed" autocomplete="off" required />
-    <input type="text" placeholder="Pet Age" autocomplete="off" required />
-    <input type="text" placeholder="Gender" autocomplete="off" required />
-    <input type="text" placeholder="Allergies:" autocomplete="off" required />
-    <input type="text" placeholder="Other medical conditions:" autocomplete="off" required />
+  <input placeholder="Name" autocomplete="off" required />
+  <input type="email" placeholder="Email" autocomplete="off" required />
+  <input type="tel" placeholder="Contact No." autocomplete="off" required />
+  <input type="text" placeholder="Pet Name" autocomplete="off" required />
+  <input type="text" placeholder="Breed" autocomplete="off" required />
+  <input type="text" placeholder="Pet Age" autocomplete="off" required />
+  <input type="text" placeholder="Gender" autocomplete="off" required />
+  <input type="text" placeholder="Allergies:" autocomplete="off" required />
+  <input type="text" placeholder="Other medical conditions:" autocomplete="off" required />
 
-    <button class="submit-btn">Submit</button>
-  </form>
+  <button class="submit-btn">Submit</button>
+</form>
+
+<section class="section-cta" id="cta">
+  <div class="container">
+    <div class="cta">
+      <div class="cta-text-box">
+        <h2 class="heading-secondary">Sign up for pet therapy now!</h2>
+        <p class="cta-text">
+          Some small description for pet therapy
+        </p>
+
+        <form class="cta-form" name="sign-up">
+          <div>
+            <label for="full-name">Pet Name</label>
+            <input id="full-name" type="text" placeholder="Name" name="full-name" required="">
+          </div>
+
+          <div>
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="me@example.com" name="email" required="">
+          </div>
+
+          <div>
+            <label for="email">Contact Number</label>
+            <input id="email" type="tel" placeholder="+65 8123 4567" name="phone" required="">
+          </div>
+
+          <div>
+            <label for="breed">Pet Name</label>
+            <input id="breed" type="text" placeholder="Breed" name="breed" required="">
+          </div>
+
+          <div>
+            <label for="pet-age">Pet Name</label>
+            <input id="pet-age" type="number" placeholder="Age (in numbers)" name="age" min="0" max="10" required="">
+          </div>
+
+          <div>
+            <label for="gender">Gender</label>
+            <input id="gender" type="text" placeholder="Gender" name="gender" required="">
+          </div>
+
+          <div>
+            <label for="allergies">Allergies</label>
+            <input id="allergies" type="text" placeholder="Allergies" name="allergies" required="">
+          </div>
+
+          <div>
+            <label for="others">Other medical conditions</label>
+            <input id="others" type="text" placeholder="Other medical conditions" name="others" required="">
+          </div>
+
+          <button class="btn btn--form" fdprocessedid="01f9tk">Sign up now</button>
+
+          <!-- <input type="checkbox" />
+          <input type="number" /> -->
+        </form>
+      </div>
+      <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+    </div>
+  </div>
+</section>
+
 {% endblock %}
